@@ -1,0 +1,156 @@
+/* #Media Queries
+================================================== */
+		
+	
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+	
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {	
+	
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 361px) and (max-width : 480px){
+
+
+
+}
+
+/* Mainly for the slideshow on mobile portrait */
+
+@media only screen
+and (min-width : 320px) and (max-width : 380px){
+
+
+}
+
+/* Stuff that also happens when meanmenu kicks in */
+
+@media only screen
+and (max-width : 640px){
+
+	header{
+		clear: both;
+		padding-top: 0;
+	}
+	
+	
+}
+
+
+/* everything up to iPad portrait ----------- */
+@media only screen
+and (max-width : 767px){
+
+	#site-logo{
+		text-align: center;
+	}
+	
+	#site-logo a{
+		display: inline-block;
+	}
+	
+	#site-logo img {
+	    float: none;
+	}
+	
+	header{
+		text-align: center;
+	}
+
+	header .searchform{
+		float: none;
+		width: 300px;
+		margin: 2rem auto 0;
+	}
+	
+	.searchform{
+		max-width: 100%;
+	}
+	
+	.searchform input{
+		width: 240px;
+	}
+	
+	.content-block div[class*="col-"]{
+		float: left;
+		clear: both;
+		padding-bottom: 4rem;
+	}
+	
+	.content-block div[class*="col-"]:last-child{
+		padding-bottom: 0;
+	}
+	
+
+
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 940px) {
+	#sidebar-inner{
+		padding: 14.2rem 0 0 0;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+
+/* iPads (portrait) and above ----------- */
+@media only screen
+and (min-width : 768px) {
+	
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* Retina (currently a 2x logo not available 15/4/15) ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}

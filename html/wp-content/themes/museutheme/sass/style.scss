@@ -1,0 +1,42 @@
+/*!
+Theme Name: Thirty8 Boilerplate
+Theme URI: http://www.thirty8.co.uk
+Description: It's a boilerplate
+Author: Thirty8 Digital
+Author URI: http://www.thirty8.co.uk
+*/
+
+@import "partials/variables";
+@import "partials/reset_bootstrap_grid";
+
+
+@import "partials/typography";
+@import "partials/fonts";
+@import "partials/media";
+
+@import "partials/forms"; 
+@import "partials/links_buttons";
+@import "partials/tables";
+
+@import "partials/branding";
+
+@import "partials/primary_nav";
+
+@import "partials/archive";
+
+@import "partials/single";
+
+@import "partials/modules";
+
+@import "partials/sidebar";
+
+@import "partials/footer";
+
+@import "partials/comments";
+
+@import "partials/site-specific";
+
+@import "partials/meanmenu";
+@import "partials/flexslider";
+@import "partials/mediaqueries";  
+@import "partials/print";  

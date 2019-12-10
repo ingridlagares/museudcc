@@ -1,0 +1,55 @@
+2019-10-10T21:36:26+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:36:52+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:36:53+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:36:54+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:36:56+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:37:00+00:00 CRITICAL Object of class WP_Error could not be converted to string in /var/www/html/wp-content/themes/museutheme/functions.php on line 984
+
+2019-10-10T21:39:48+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 987
+
+2019-10-10T21:43:52+00:00 CRITICAL Uncaught Error: Call to undefined function typeof() in /var/www/html/wp-content/themes/museutheme/functions.php:985
+Stack trace:
+#0 /var/www/html/wp-content/themes/museutheme/front-page.php(16): categorias_section()
+#1 /var/www/html/wp-includes/template-loader.php(77): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/museutheme/functions.php on line 985
+
+2019-10-10T21:45:50+00:00 CRITICAL Uncaught Error: Call to undefined function split() in /var/www/html/wp-content/themes/museutheme/functions.php:985
+Stack trace:
+#0 /var/www/html/wp-content/themes/museutheme/front-page.php(16): categorias_section()
+#1 /var/www/html/wp-includes/template-loader.php(77): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/museutheme/functions.php on line 985
+
+2019-10-10T21:46:57+00:00 CRITICAL Uncaught Error: Call to undefined function split() in /var/www/html/wp-content/themes/museutheme/functions.php:985
+Stack trace:
+#0 /var/www/html/wp-content/themes/museutheme/front-page.php(16): categorias_section()
+#1 /var/www/html/wp-includes/template-loader.php(77): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-content/themes/museutheme/functions.php on line 985
+
+2019-10-10T21:51:01+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in /var/www/html/wp-content/themes/museutheme/functions.php on line 986
+
+2019-10-10T22:00:41+00:00 CRITICAL syntax error, unexpected '$parents_number' (T_VARIABLE), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 987
+
+2019-10-10T22:07:20+00:00 CRITICAL syntax error, unexpected 'sizeof' (T_STRING) in /var/www/html/wp-content/themes/museutheme/functions.php on line 985
+
+2019-10-10T22:08:43+00:00 CRITICAL syntax error, unexpected 'parents' (T_STRING), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 993
+
+2019-10-10T22:08:54+00:00 CRITICAL syntax error, unexpected '"parents"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 993
+
+2019-10-10T22:09:03+00:00 CRITICAL syntax error, unexpected '"parents"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 993
+
+2019-10-10T22:09:26+00:00 CRITICAL syntax error, unexpected '"parents"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /var/www/html/wp-content/themes/museutheme/functions.php on line 987
+

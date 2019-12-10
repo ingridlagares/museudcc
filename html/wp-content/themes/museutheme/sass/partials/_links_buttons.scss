@@ -1,0 +1,55 @@
+/* #Links
+================================================== */
+
+a{
+	transition: color 0.2s ease;
+  	color: $primary_link;
+  	text-decoration: underline;
+  	&:visited{
+  	color: $primary_link;
+  	}
+  	&:hover, &:focus, &:active{
+  	color: #333;
+  	outline: 0;
+  	}
+}
+
+a img{
+	display: block;
+	border: none;
+}
+
+
+/* #Buttons
+================================================== */
+
+.button, .button:visited{
+    padding: 0.8rem 1.25rem 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+	background: $primary_button;
+    border: none;
+    color: #fff;
+    transition: background-color 0.2s ease;
+    -webkit-appearance: none;
+    &:hover{
+    	cursor: pointer;
+    }
+    &:hover, &:focus, &:active{
+    	color: #fff;
+    	text-decoration: none;
+		background: #333;
+    }
+}
+
+.button i{
+	font-size: 10px;
+	margin-left: 8px;
+	position: relative;
+	top: -1px;
+}
+
+.slide-button .button i{
+	top: -2px;
+}

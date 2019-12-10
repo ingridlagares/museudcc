@@ -1,0 +1,354 @@
+{
+  "title": {
+    "text": {
+      "headline": "The life of Handel",
+      "text": "1685 - 1759"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "month": "02",
+        "day": "23",
+        "year": "1685"
+      },
+      "text": {
+        "headline": "Born",
+        "text": "<p>Born in Halle, Germany to Georg H\u00e4ndel and Dorothea Taust</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1702"
+      },
+      "text": {
+        "headline": "Age 17: studies law",
+        "text": "<p>Handel studies law at Halle University and is appointed organist of the Calvinist Cathedral</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1703"
+      },
+      "text": {
+        "headline": "Age 18: moves to Hamburg",
+        "text": "<p>Handel moves to Hamburg, plays violin and harpsichord in the opera orchestra at Theater am G\u00e4nsemarkt, now Hamburg State Opera </p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1705"
+      },
+      "text": {
+        "headline": "Age 20: first performance of <em>Almira</em>",
+        "text": "<p>Handel's first opera, <em><a href='http://handelandhendrix.org/learn/about-handel/opera-synopses/almira/'>Almira</a></em>, is performed and is a success. It ran for twenty performances.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1706"
+      },
+      "text": {
+        "headline": "Age 21: moves to Italy",
+        "text": "<p>Handel moves to Italy</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1707"
+      },
+      "text": {
+        "headline": "Age 22: writes Rodrigo",
+        "text": "<p>Handel writes his first Italian opera, <em><a href='http://handelandhendrix.org/learn/about-handel/opera-synopses/rodrigo/'>Rodrigo</a></em></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1709"
+      },
+      "text": {
+        "headline": "Age 24: first performance of Agrippina",
+        "text": "<p>The first performance of <em><a href='http://handelandhendrix.org/learn/about-handel/opera-synopses/agrippina/'>Agrippina</a></em> is very well received and its popularity makes a name for Handel in Italy</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1710"
+      },
+      "text": {
+        "headline": "Age 25: appointed Court Music Director",
+        "text": "<p>Handel is appointed Court Music Director ('Kapellmeister') to the Hanoverian court in June and is granted permission to travel to London, where he is presented to Queen Anne</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1711"
+      },
+      "text": {
+        "headline": "Age 26: presents Rinaldo",
+        "text": "<p>Handel presents <em><a href='http://handelandhendrix.org/learn/about-handel/opera-synopses/rinaldo/'>Rinaldo</a></em>, his first Italian opera written specially for the London audience</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1713"
+      },
+      "text": {
+        "headline": "Age 28: Writes Te Deum",
+        "text": "<p>Having returned to Hanover and then travelled back to London a second time, Handel writes the <em>Te Deum</em> and <em>Ode for the Birthday of Queen Anne</em> and is given an annual royal pension (salary) of &pound;200</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1714"
+      },
+      "text": {
+        "headline": "Age 29: Handel settles in London  ",
+        "text": "<p>Queen Anne dies and Handel's Hanoverian employer, George Elector of Hanover, is crowned George I of Great Britain. Handel settles in London</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1717"
+      },
+      "text": {
+        "headline": "Age 32: First performance of <em>Water Music</em> ",
+        "text": "<p>The first Performance of Handel's <em>Water Music</em> takes place on 17 July as part of a public procession of King George I and his dignitaries down the River Thames</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1719"
+      },
+      "text": {
+        "headline": "Age 34: Royal Academy of Music established ",
+        "text": "<p>The Royal Academy of Music is established by nobility for performances of Italian opera under Handel’s direction</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1723"
+      },
+      "text": {
+        "headline": "Age 38: Moves to Brook Street ",
+        "text": "<p>Appointed <em>Composer of Musick for His Majesty's Chappel Royal</em> and granted an additional annual royal pension. Handel moves to Brook Street, London where he lives for the rest of his life</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1724"
+      },
+      "text": {
+        "headline": "Age 39: First performance of <em>Giulio Cesare</em> ",
+        "text": "<p>First performance of Giulio Cesare; The start of a succession of longer and more detailed operas that include <a href='http://handelhendrix.org/learn/about-handel/opera-synopses/tamerlano/'>Tamerlano</a> (1724) and <a href='http://handelhendrix.org/learn/about-handel/opera-synopses/rodelinda/'>Rodelinda</a> (1725)</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1727"
+      },
+      "text": {
+        "headline": "Age 42: Granted British Citizenship ",
+        "text": "<p>George I dies and is succeeded by George II. Handel is granted British Citizenship and is appointed to write the <em>Coronation Anthems</em>, which include <em>Zadok the Priest</em></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1728"
+      },
+      "text": {
+        "headline": "Age 43: Royal Academy of Music declares bankrupcy ",
+        "text": "<p>The Royal Academy of Music declares bankruptcy leaving Handel to continue producing operas with his own funds</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1729"
+      },
+      "text": {
+        "headline": "Age 44: Partnership with James Heidegger ",
+        "text": "<p>Handel establishes a partnership with John James Heidegger, the manager of the King's Theatre</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1731"
+      },
+      "text": {
+        "headline": "Age 46: Thomas Arne launches 'English Opera'</em> ",
+        "text": "<p>Thomas Arne launches a successful run of 'English Opera' in competition with Handel</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1732"
+      },
+      "text": {
+        "headline": "Age 47: <em>Esther</em> introduced ",
+        "text": "<p>Handel introduces performances of an English oratorio, <em>Esther</em> to his season</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1734"
+      },
+      "text": {
+        "headline": "Age 49: Opera of the Nobility established",
+        "text": "<p>Opera of the Nobility is established as a successful rival to Handel's company stealing the majority of Handel's singers and moving into the King's Theatre in Handel's place where he performed his operas from 1711</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1735"
+      },
+      "text": {
+        "headline": "Age 50: First performance of <em>Ariodante</em> ",
+        "text": "<p>The first performance of <em><a href='http://handelhendrix.org/learn/about-handel/opera-synopses/ariodante/'>Ariodante</a></em> takes place at the Covent Garden Theatre, owned by John Rich. Handel had full use of the in-house chorus and dance-company</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1738"
+      },
+      "text": {
+        "headline": "Age 53: Writes <em>Saul</em> and <em>Israel in Egypt</em> ",
+        "text": "<p>Handel writes oratorios <em>Saul</em> and <em>Israel in Egypt</em>, which are premiered at the King’s Theatre the next year. A statue of Handel, by Roubilliac, is unveiled in Vauxhall Gardens</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1739"
+      },
+      "text": {
+        "headline": "Age 54: Produces first all-English season ",
+        "text": "<p>Handel produces his first all-English season at a small theatre at Lincoln's Inn Fields, including <em>L'Allegro</em>, <em>il Penseroso ed il Moderato</em> and the <em>Ode for St Cecilia's Day</em> </p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1740"
+      },
+      "text": {
+        "headline": "Age 55: Last season of Italian Opera ",
+        "text": "<p>Handel presents his last season of Italian opera in London</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1741"
+      },
+      "text": {
+        "headline": "Age 56: Composes <em>Messiah</em>",
+        "text": "<p>Handel is invited to Dublin by the Duke of Devonshire, William Cavendish for the winter concert season. He composes <em>Messiah</em> in 24 days from 22 August to 14 September</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1742"
+      },
+      "text": {
+        "headline": "Age 57: First performance of <em>Messiah</em> ",
+        "text": "<p>The first performance of <em>Messiah</em> takes place in Dublin on 13 April. It is a resounding success</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1743"
+      },
+      "text": {
+        "headline": "Age 58: George II defeats the French army ",
+        "text": "<p>George II defeats the French army at Dettingen. Handel writes <em>Dettingen Te Deum</em> and <em>Anthem</em> as a celebration. Handel writes Semele in 4 weeks</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1745"
+      },
+      "text": {
+        "headline": "Age 60: <em>Hercules</em> and <em>Belshazzar</em> premiered ",
+        "text": "<p></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1746"
+      },
+      "text": {
+        "headline": "Age 61: Handel writes <em>Judas Maccabeus</em> ",
+        "text": "<p>Handel writes <em>Judas Maccabeus</em> to celebrate George II’s victory over the Jacobites at the Battle of Culloden</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1748"
+      },
+      "text": {
+        "headline": "Age 63: Handel writes <em>Solomon</em> ",
+        "text": "<p>Handel writes <em>Solomon</em>, which includes the famous instrumental passage for two oboes and strings known as <em>The Arrival of the Queen of Sheeba</em>. Further oratorios such as <em>Joshua and <em>Alexander Balus</em> are performed and are very well received.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1749"
+      },
+      "text": {
+        "headline": "Age 64: Handel writes <em>Music for the Royal Fireworks</em> ",
+        "text": "<p>Handel writes <em>Music for the Royal Fireworks</em> to celebrate the end of The War of the Austrian Succession. The first annual performance of <em>Messiah</em> as a benefit concert for the Foundling Hospital is held</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1751"
+      },
+      "text": {
+        "headline": "Age 66: Begins to lose sight",
+        "text": "<p>Handel begins to lose the sight in his left eye whilst composing <em>Jephtha</em></p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1752"
+      },
+      "text": {
+        "headline": "Age 67: Handel's sight almost gone",
+        "text": "<p>Despite managing to perform <em>Jephtha</em> at the beginning of the year, Handel's sight is almost completely gone by the end of the year</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1753"
+      },
+      "text": {
+        "headline": "Age 68: Handel starts performing again ",
+        "text": "<p>After a brief period of convalescence, Handel starts performing again from memory and through improvisation </p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1754"
+      },
+      "text": {
+        "headline": "Age 69: JC Smith the younger takes over annual benefit concerts",
+        "text": "<p>Handel hands over the responsibility of the annual benefit concerts for the Foundling Hospital to J C Smith the younger, Handel's amanuensis</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1758"
+      },
+      "text": {
+        "headline": "Age 73: Handel attends a revival of <em>Messiah</em> on 6 April",
+        "text": "<p>On 11 April Handel modifies his Will for the fourth time, bequeathing £1000 to the Society for the Support of Decayed Musicians and desiring burial in Westminster Abbey and for a monument of him to be erected there. He bequeaths £600 for the monument.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "1759"
+      },
+      "text": {
+        "headline": "Age 74: Handel dies ",
+        "text": "<p>Handel dies at 25 Brook Street on 13 April and is buried at Westminster Abbey a week later on 20 April</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+/* #Archives
+================================================== */
+
+body.post-type-archive-object form legend, body.post-type-archive-object form label{
+	display: inline;
+	float: left;
+	margin-right: 1.5rem;
+}
+
+.index h1{
+	margin-bottom: 3rem;
+}
+
+.index-object{
+	margin-bottom: 3rem;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.index-object:hover{
+	transform: scale(1.05);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.index-object-inner{
+	position: relative;
+	padding: 1rem;
+	background: #fff;
+	border: 1px solid $border_color;
+}
+
+.index-object-inner .index-object-image{
+	
+	
+}
+
+.index-object-inner .index-object-image img{
+	display: block;
+	margin: 0 auto 1rem;
+	max-height: 248px;
+	overflow:hidden;
+}
+
+.index-object-inner .index-object-detail{
+		
+}
+
+.index-object-inner h2{
+	margin-bottom: 0;
+}
+
+.index-object-description{
+	margin: 0.5rem 0 0;
+	line-height: 2rem;
+	font-size: 1.5rem;
+}
+
+a.index-object:link,
+a.index-object:visited{
+	text-decoration: none;
+}
+
+a.index-object:hover h2,
+a.index-object:focus h2,
+a.index-object:active h2{
+	/* text-decoration: underline; */
+}
+
+a.index-object .index-object-description{
+	text-decoration: none;
+	color: $primary_text;
+}
+
+div.pagination{
+	text-align: center;
+}
+
+.wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span {
+	display: inline-block;
+	padding: 1.2rem 1.5rem;
+	line-height: 1.5rem;
+	text-decoration: none;
+	font-size: 1.4rem;
+	background: $primary_link;
+	color: #fff;
+	border: none;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: #333;
+}
+
+.wp-pagenavi a i{
+	margin-top: -3px;
+	position: relative;
+	top: 1px;
+}

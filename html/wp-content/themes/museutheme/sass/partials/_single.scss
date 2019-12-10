@@ -1,0 +1,31 @@
+/* #Single Post
+================================================== */
+
+.hentry ul{
+	margin: 1rem 0 2rem;
+}
+
+.hentry ul li{
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+.postmeta, .postmeta p{
+	font-size: 1.4rem;
+	color: $meta_text;
+}
+
+#single-postdate{
+	margin: 1rem 0 2rem;
+}
+
+#single-postmeta{
+	margin: 3rem 0;
+	padding: 2rem 0 1rem;
+	border-top: 1px solid $border_color;
+	border-bottom: 1px solid $border_color;
+}
+
+#single-postmeta p{
+	margin-bottom: 1rem;
+}

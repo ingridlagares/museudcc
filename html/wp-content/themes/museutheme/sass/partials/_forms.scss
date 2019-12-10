@@ -1,0 +1,103 @@
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="search"],
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+margin-bottom: 2rem;
+border: 1px solid #888;
+font-size:1.4rem;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+height: 14px;
+padding: 12px 6px; /* The 6px vertically centers text on FF, ignored by Webkit */
+box-shadow: none;
+background: #fff;
+color: $primary_text;
+ }
+/* Removes awwkard default styles on some inputs */
+input[type="email"],
+input[type="search"],
+input[type="text"],
+textarea {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+textarea {
+min-height: 10rem;
+max-width: 96%;
+padding-top: 6px;
+padding-bottom: 6px; 
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+border: 1px solid #333;
+outline: 0; }
+label,
+legend {
+display: block;
+font-weight: bold;
+font-size: 1.4rem;
+margin-bottom: .5rem; }
+fieldset {
+border-width: 0;
+padding: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+display: inline; }
+label > .label-body {
+display: inline-block;
+font-weight: normal;
+margin-left: .5rem; }
+
+header .searchform{
+	float: right;
+	margin-top: 10px;
+}
+
+.searchform{
+	max-width: 360px;
+}
+
+.searchform input{
+	float: left;
+	width: 200px;
+	height: 40px;
+	margin: 0;
+	font-size: 1.4rem;
+	color: $primary_text;
+}
+
+button.search-submit{
+	transition: background-color 0.2s ease;
+	float: left;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	background: #888;
+	color: #fff;
+	border: none;
+}
+
+button.search-submit:hover{
+	cursor: pointer;
+	background: $primary_link;
+}
+
+button.search-submit i.fa-search{
+	position: relative;
+	top: 0;
+}
+
+/* stop rounding on iOS */
+.searchform input{
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+

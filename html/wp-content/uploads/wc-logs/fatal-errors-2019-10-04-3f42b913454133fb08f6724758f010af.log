@@ -1,0 +1,8 @@
+2019-10-04T13:46:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /var/www/html/wp-content/themes/museutheme/archive.php:38
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(77): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/museutheme/archive.php on line 38
+

@@ -1,0 +1,78 @@
+#sidebar{
+}
+
+#sidebar-inner{
+}
+
+@media screen and (max-width: 48em) {
+	#sidebar{
+	}
+	#sidebar-inner{
+	}
+}
+
+#sidebar p, #sidebar li{
+}
+
+#sidebar .widget{
+	padding-top: 1.5rem;
+	padding-bottom: 4rem;
+	border-top: 3px solid $block_border_color;
+}
+
+#sidebar .widget h3{
+	margin-bottom: 1rem;
+	font-size: 21px;
+	font-size: 2.1rem;
+	color: $primary_text;
+}
+
+#sidebar .widget ul{
+	margin: -0.5rem 0 0;
+	padding: 0;
+}
+
+#sidebar .widget ul li{
+	margin: 0;
+	padding: 1rem 0;
+}
+
+#sidebar .widget ul li:before{
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 8px;
+  display: inline-block;
+  float: left;
+  text-decoration: inherit;
+  margin-top: -2px;
+  margin-right: 8px;
+  margin-left: 2px;
+  margin-bottom: 1rem;
+  content: "\f04b";
+  color: $accent_color;
+}
+
+#sidebar .widget ul li:last-child{
+	border: none;
+}
+
+#sidebar .widget ul li a{
+	color: $primary_link;
+  	&:visited{
+  	color: $primary_link;
+  	}
+  	&:hover, &:focus, &:active{
+  	color: $accent_color;
+  	outline: 0;
+  	}
+}
+
+#sidebar .widget .page-summary{
+	margin-top: 1rem;
+}
+
+#sidebar .random-object-widget a.featured-image{
+	display: block;
+	margin-bottom: 1rem;
+}

@@ -1,0 +1,81 @@
+/* #Comments
+================================================== */
+
+#comments-list{
+}
+
+#comments-list ul{
+	padding: 0;
+}
+
+#comments-list h2{
+}
+
+#comments-list li{
+	margin: 0 0 3rem;
+	padding: 0 0 0 0;
+	list-style: none;
+}
+
+#comments-list li .comment-author-section{
+	font-size: 1.4rem;
+}
+
+#comments-list li .avatar{
+	float: left;
+	margin-right: 2rem;
+	border-radius: 50%;
+}
+
+#comments-list li .comment-author.vcard{
+}
+
+#comments-list li .fn{
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 14px;
+}
+
+#comments-list li .comment-content{
+	padding-left: 8rem;
+	font-size: 1.4rem;
+}
+
+#comments-list li .comment-content p{
+	margin-bottom: 10px;
+}
+
+#comments-list li .comment-meta{
+	margin-top: 5px;
+	font-size: 1.3rem;
+	color: #aaa;
+}
+
+#comments-list li ul.children{
+	margin: 2rem 0 0 8rem;
+	padding: 0;
+}
+
+#comments-list li ul li{
+	border: 0;
+	overflow: auto;
+}
+
+#comments-list li.bypostauthor{
+}
+
+#comments-list li.bypostauthor .avatar{
+}
+
+#comments #respond{
+	padding: 5rem 0;
+	border-top: 1px solid $border_color;
+}
+
+#form-allowed-tags{
+	font-size: 0.875em;
+}
+
+.button.comment-button{
+	margin-top: 2rem;
+}

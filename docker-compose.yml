@@ -1,0 +1,34 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: wordpress
+    container_name: site-museudcc
+    restart: always
+    ports:
+      - 8095:80
+    volumes:
+      - ./html:/var/www/html
+      - ./config/php.ini:/usr/local/etc/php/conf.d/extra.ini
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: museuuser
+      WORDPRESS_DB_PASSWORD: museupass
+      WORDPRESS_DB_NAME: museudb
+    depends_on:
+      - db
+    links:
+      - db
+  db:
+    image: mysql:5.7
+    container_name: mysql-site-museudcc
+    restart: always
+    volumes:
+      - /srv/museudcc/data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: museudb
+      MYSQL_USER: museuuser
+      MYSQL_PASSWORD: museupass
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+

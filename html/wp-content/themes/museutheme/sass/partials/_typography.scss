@@ -1,0 +1,188 @@
+html {
+	font-size: 62.5%; 
+}
+
+body {
+	font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 2.4rem;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: $primary_background;
+	color: $primary_text; 
+}
+
+/* #Typography
+================================================== */
+
+h1,h2,h3,h4,h5,h6{ 
+	margin: 0 0 2.4rem;
+	line-height: 1.2em;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+}
+
+h1{ 
+	font-size: 30px;
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 21px;
+	font-size: 2.1rem;
+}
+
+h3{
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+h4{
+	font-size: 16px;
+	font-size: 1.6rem; 
+}
+
+h5, h6{
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+h2.page-intro{
+	margin: -2rem 0 2.8rem;
+	font-weight: normal;
+	font-size: 21px;
+	font-size: 2.1rem;
+	color: $primary_text
+}
+
+h2.larger-subheader{
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+p{
+	margin: 0 0 2.4rem 0; 
+}
+
+p img{
+	margin: 0; 
+}
+
+p.more-link a.button{
+	float: left;
+}
+
+em{
+	font-style: italic; 
+}
+
+strong{ 
+	font-weight: bold; 
+}
+
+small{
+	font-size: 80%; 
+}
+
+hr{
+	clear: both; 
+	border: solid $border_color; 
+	border-width: 1px 0 0;
+	margin: 1rem 0 2rem; 
+	height: 0; 
+}
+
+.center{ 
+	text-align: center; 
+}
+
+
+/* #Lists
+================================================== */
+
+ul, ol{
+	margin: 0 0 2rem; 
+}
+
+ul{ 
+	list-style: none; 
+}
+
+article ul{ 
+	list-style: disc outside; 
+}
+
+
+ol{
+	list-style: decimal; 
+}
+
+ul ul, ul ol,
+ol ol, ol ul{ 
+	margin: 0.5em 0 0.5em 2em;  
+}
+
+ul ul li, ul ol li,
+ol ol li, ol ul li{
+	margin-bottom: 0.5em; 
+}
+
+li{
+	line-height: 1.4em; 
+	margin-bottom: 1.4rem; 
+}
+
+li p{
+	line-height: 1.5em; 
+}
+
+
+/* #Other Typography
+================================================== */
+
+address{
+	margin-bottom: 2rem;
+}
+
+blockquote{
+	margin-bottom: 2rem;
+}
+
+blockquote p{
+	line-height: 1.3em;
+	font-size: 1.5rem;
+	color: #888;
+}
+
+pre, code{
+	margin: 0 0 1rem; 
+	padding: 0.5rem; 
+	font-weight: bold; 
+	background: #ddd; 
+	color: #333; 
+	font-family: Courier, monospace; overflow: scroll;
+}
+
+dl{
+}
+
+dt{
+	font-weight: bold;
+}
+
+dd{
+	margin-bottom: 1rem;
+	margin-left: 0;
+}
+
+sup, sub{
+   vertical-align: baseline;
+   position: relative;
+   top: -0.4em;
+}
+
+sub{ 
+	top: 0.4em; 
+}

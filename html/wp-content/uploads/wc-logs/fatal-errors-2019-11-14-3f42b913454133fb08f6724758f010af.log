@@ -1,0 +1,2 @@
+2019-11-14T20:25:26+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING) in /var/www/html/wp-content/themes/museu-theme/functions.php on line 29
+

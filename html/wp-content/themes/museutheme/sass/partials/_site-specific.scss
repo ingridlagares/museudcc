@@ -1,0 +1,58 @@
+/* Layout */
+
+#main-content{
+	padding: 4rem 0;
+	background: #f4f4f4;
+	border-top: 1px solid $border_color;
+	border-bottom: 1px solid $border_color;
+}
+
+.inner-content{
+	padding: 2rem 3rem;
+	background: #fff;
+	border: 1px solid $border_color;
+}
+
+/* Default Page */
+
+.featured-image{
+	margin-bottom: 2.4rem;
+}
+
+/* Object Index */
+
+
+
+
+/* Object Single */
+
+body.single-object #brief-description{
+	margin-bottom: 2.4rem;
+}
+
+body.single-object #object-metadata .inner-content{
+	padding: 1.5rem;
+}
+
+body.single-object .featured-image img{
+	border: 1px solid $border_color;
+}
+
+body.single-object dl{
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
