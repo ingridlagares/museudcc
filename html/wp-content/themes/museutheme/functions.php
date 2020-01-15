@@ -24,6 +24,7 @@ function thirty8base_enqueue_addstyle() {
 	wp_enqueue_style( 'calendar', get_template_directory_uri() . '/modules/fullcalendar/fullcalendar.css', array(), '1.0', 'screen' );
 	wp_enqueue_style( 'calendar-print', get_template_directory_uri() . '/modules/fullcalendar/fullcalendar-print.css', array(), '1.0', 'print' );
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '3.3.6' );
+	wp_enqueue_style( 'imagetricks', get_template_directory_uri() . '/css/imagetricks.css', array() );
 }
 
 add_action( 'wp_enqueue_scripts', 'thirty8base_enqueue_addstyle' );
@@ -37,6 +38,8 @@ function thirty8theme_load_scripts() {
 		// Load our Javascript
 		wp_enqueue_script('meanmenu');
 		wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/script.js', array( 'jquery' ), '3.3.6', true );
+		wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery.min.js', array( 'jquery' ), '3.4.1', true );
+
 	}
 }
 add_action('wp_enqueue_scripts', 'thirty8theme_load_scripts');

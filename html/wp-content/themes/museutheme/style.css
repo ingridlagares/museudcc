@@ -1,334 +1,342 @@
 
-body{
-    background-color: #FFFFFF;
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-    font-size: 14px;
-}
-html {
-  scroll-behavior: smooth;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, arial;
-}
-#branding-header{
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: auto;
-    margin-left: auto;
-}
-header{
-    background-color: #FFFFFF;
-    min-height: 100px;
-    padding: 20px;
-}
-footer{
-    text-align: center;
-    clear: both;
-    position: relative;
-    height: 100px;
-    margin-top: -200px;
-}
-.logo-col img{
-    height: 110px;
-}
-.logo-col{
-    float: left;
-    height: 110px;
-    width: 50%;
-}
-.right-col {
-    float: right;
-    width: 50%;
-    height: 110px;
-}
-.search-col {
-    height: 50%;
-}
-.nav-col {
-    height: 50%;
-}
-.searchform input[type=text] {
-    min-width: 250px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('images/searchicon.png');
-    background-position: 10px 15px;
-    background-size: 25px;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    background-repeat: no-repeat;
-    padding: 15px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    float: right;
-}
+    body{
+        background-color: #FFFFFF;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        font-size: 14px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Helvetica, arial;
+    }
+    #branding-header{
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    header{
+        background-color: #FFFFFF;
+        min-height: 100px;
+        padding: 20px;
+    }
+    footer{
+        text-align: center;
+        clear: both;
+        position: relative;
+        height: 100px;
+        margin-top: -200px;
+    }
+    .logo-col img{
+        height: 110px;
+    }
+    .logo-col{
+        float: left;
+        height: 110px;
+        width: 50%;
+    }
+    .right-col {
+        float: right;
+        width: 50%;
+        height: 110px;
+    }
+    .search-col {
+        height: 50%;
+    }
+    .nav-col {
+        height: 50%;
+    }
+    .searchform input[type=text] {
+        min-width: 250px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('images/searchicon.png');
+        background-position: 10px 15px;
+        background-size: 25px;
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+        background-repeat: no-repeat;
+        padding: 15px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        float: right;
+    }
 
-.searchform input[type=text]:focus{
-    min-width: 350px;
-}
-#primary {
-    padding: 0 1em;
-    margin-left:-15px;
-    margin-right:-15px
+    .searchform input[type=text]:focus{
+        min-width: 350px;
+    }
+    #primary {
+        padding: 0 1em;
+        margin-left:-15px;
+        margin-right:-15px
 
-}
-#branding{
-    width: 100%;
-}
-#sections{
-    min-width: 450px;
-    float: left;
-    margin-top: 10px;
-    margin-right: 1px;
+    }
+    #branding{
+        width: 100%;
+    }
+    #sections{
+        min-width: 450px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 1px;
 
-}
-#sections ul {
-  margin: 0;
-  padding: 0;
-}
-/*with this we have a navigation button, without the menu is complete*/
-#sections .main-menu {
-  display: none;
-}
+    }
+    #sections ul {
+      margin: 0;
+      padding: 0;
+    }
+    /*with this we have a navigation button, without the menu is complete*/
+    #sections .main-menu {
+      display: none;
+    }
 
-#tm:checked + .main-menu {
-  display: block;
-}
+    #tm:checked + .main-menu {
+      display: block;
+    }
 
-#sections input[type="checkbox"],
-#sections ul span.drop-icon {
-  display: none;
-}
+    #sections input[type="checkbox"],
+    #sections ul span.drop-icon {
+      display: none;
+    }
 
-#sections li,
-#toggle,
-#sections .sub-menu {
-  border-style: solid;
-  border-color: rgba(0, 0, 0, .05);
+    #sections li,
+    #toggle,
+    #sections .sub-menu {
+      border-style: solid;
+      border-color: rgba(0, 0, 0, .05);
 
-}
+    }
 
-#sections li,
-#toggle {
-  border-width: 0 0 1px;
-}
+    #sections li,
+    #toggle {
+      border-width: 0 0 1px;
+    }
 
-#sections .sub-menu {
-  position: absolute;
-  top: 0px;
-  min-width: 450px;
-  left: 449px;
-  background-color: #444;
-  border-width: 1px 1px 0;
-  margin: 0px;
-  text-decoration: none;
-}
+    #sections .sub-menu {
+      position: absolute;
+      top: 0px;
+      min-width: 450px;
+      left: 449px;
+      background-color: #444;
+      border-width: 1px 1px 0;
+      margin: 0px;
+      text-decoration: none;
+    }
 
-#sections .sub-menu li:last-child {
-  border-width: 0;
-}
+    #sections .sub-menu li:last-child {
+      border-width: 0;
+    }
 
-#sections li,
-#toggle,
-#sections a {
-  position: relative;
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
-}
+    #sections li,
+    #toggle,
+    #sections a {
+      position: relative;
+      display: block;
+      color: white;
+      text-decoration: none;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+    }
 
-#sections,
-#toggle-menu {
-  background-color: #004d00;
-}
+    #sections,
+    #toggle-menu {
+      background-color: #004d00;
+    }
 
-#toggle,
-#sections a {
-  padding: 1em 1.5em;
-}
+    #toggle,
+    #sections a {
+      padding: 1em 1.5em;
+    }
 
-#sections a {
-  transition: all .125s ease-in-out;
-  -webkit-transition: all .125s ease-in-out;
-}
+    #sections a {
+      transition: all .125s ease-in-out;
+      -webkit-transition: all .125s ease-in-out;
+    }
 
-#sections a:hover {
-  background-color: white;
-  color: #004d00;
-}
+    #sections a:hover {
+      background-color: white;
+      color: #004d00;
+    }
 
-#sections .sub-menu {
-  display: none;
-}
+    #sections .sub-menu {
+      display: none;
+    }
 
-#sections input[type="checkbox"]:checked + .sub-menu {
-  display: block;
-}
+    #sections input[type="checkbox"]:checked + .sub-menu {
+      display: block;
+    }
 
-#sections .sub-menu a:hover {
-  color: #444;
-}
+    #sections .sub-menu a:hover {
+      color: #444;
+    }
 
-#toggle .drop-icon,
-#sections li label.drop-icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+    #toggle .drop-icon,
+    #sections li label.drop-icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
 
-#sections label.drop-icon, #toggle span.drop-icon {
-  width: 10%;
-  height: 100%;
-  text-align: center;
-  margin-right: 0%;
-  background-color: rgba(0, 0, 0, .125);
-  text-shadow: 0 0 0 transparent;
-  color: rgba(255, 255, 255, .75);
-}
-#sections .fa {
-  padding-top: 15px;
-}
+    #sections label.drop-icon, #toggle span.drop-icon {
+      width: 10%;
+      height: 100%;
+      text-align: center;
+      margin-right: 0%;
+      background-color: rgba(0, 0, 0, .125);
+      text-shadow: 0 0 0 transparent;
+      color: rgba(255, 255, 255, .75);
+    }
+    #sections .fa {
+      padding-top: 15px;
+    }
 
-#navmenu{
-    min-width: 250px;
-    float: right;
-    margin-top: 10px;
-    margin-right: 0px;
+    #navmenu{
+        min-width: 250px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 0px;
 
-}
-#navmenu ul {
-  margin: 0;
-  padding: 0;
-}
-/*with this we have a navigation button, without the menu is complete*/
-#navmenu .main-menu {
-  display: none;
-}
+    }
+    #navmenu ul {
+      margin: 0;
+      padding: 0;
+    }
+    /*with this we have a navigation button, without the menu is complete*/
+    #navmenu .main-menu {
+      display: none;
+    }
 
-#tn:checked + .main-menu {
-  display: block;
-}
+    #tn:checked + .main-menu {
+      display: block;
+    }
 
-#navmenu input[type="checkbox"],
-#navmenu ul span.drop-icon {
-  display: none;
-}
+    #navmenu input[type="checkbox"],
+    #navmenu ul span.drop-icon {
+      display: none;
+    }
 
-#navmenu li,
-#toggle-menu,
-#navmenu .sub-menu {
-  border-style: solid;
-  border-color: rgba(0, 0, 0, .05);
+    #navmenu li,
+    #toggle-menu,
+    #navmenu .sub-menu {
+      border-style: solid;
+      border-color: rgba(0, 0, 0, .05);
 
-}
+    }
 
-#navmenu li,
-#toggle-menu {
-  border-width: 0 0 1px;
-}
+    #navmenu li,
+    #toggle-menu {
+      border-width: 0 0 1px;
+    }
 
-#navmenu .sub-menu {
-  position: absolute;
-  top: 0px;
-  width: 350px;
-  left: -351px;
-  background-color: #444;
-  border-width: 1px 1px 0;
-  margin: 0px;
-  text-decoration: none;
-}
+    #navmenu .sub-menu {
+      position: absolute;
+      top: 0px;
+      width: 350px;
+      left: -351px;
+      background-color: #444;
+      border-width: 1px 1px 0;
+      margin: 0px;
+      text-decoration: none;
+    }
 
-#navmenu .sub-menu li:last-child {
-  border-width: 0;
-}
+    #navmenu .sub-menu li:last-child {
+      border-width: 0;
+    }
 
-#navmenu li,
-#toggle-menu,
-#navmenu a {
-  position: relative;
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
-}
+    #navmenu li,
+    #toggle-menu,
+    #navmenu a {
+      position: relative;
+      display: block;
+      color: white;
+      text-decoration: none;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+    }
 
-#navmenu,
-#toggle-menu {
-  background-color: #004d00;
-}
+    #navmenu,
+    #toggle-menu {
+      background-color: #004d00;
+    }
 
-#toggle-menu,
-#navmenu a {
-  padding: 1em 1.5em;
-  padding-left: 15%;
-}
+    #toggle-menu,
+    #navmenu a {
+      padding: 1em 1.5em;
+      padding-left: 15%;
+    }
 
-#navmenu a {
-  transition: all .125s ease-in-out;
-  -webkit-transition: all .125s ease-in-out;
-}
+    #navmenu a {
+      transition: all .125s ease-in-out;
+      -webkit-transition: all .125s ease-in-out;
+    }
 
-#navmenu a:hover {
-  background-color: white;
-  color: #004d00;
-}
+    #navmenu a:hover {
+      background-color: white;
+      color: #004d00;
+    }
 
-#navmenu .sub-menu {
-  display: none;
-}
+    #navmenu .sub-menu {
+      display: none;
+    }
 
-#navmenu input[type="checkbox"]:checked + .sub-menu {
-  display: block;
-}
+    #navmenu input[type="checkbox"]:checked + .sub-menu {
+      display: block;
+    }
 
-#navmenu .sub-menu a:hover {
-  color: #444;
-}
+    #navmenu .sub-menu a:hover {
+      color: #444;
+    }
 
-#toggle-menu .drop-icon,
-#navmenu li label.drop-icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+    #toggle-menu .drop-icon,
+    #navmenu li label.drop-icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
 
-#navmenu label.drop-icon, #toggle-menu span.drop-icon {
-  width: 10%;
-  height: 100%;
-  text-align: center;
-  margin-right: 90%;
-  background-color: rgba(0, 0, 0, .125);
-  text-shadow: 0 0 0 transparent;
-  color: rgba(255, 255, 255, .75);
-}
-#navmenu .fa {
-  padding-top: 15px;
-}
+    #navmenu label.drop-icon, #toggle-menu span.drop-icon {
+      width: 10%;
+      height: 100%;
+      text-align: center;
+      margin-right: 90%;
+      background-color: rgba(0, 0, 0, .125);
+      text-shadow: 0 0 0 transparent;
+      color: rgba(255, 255, 255, .75);
+    }
+    #navmenu .fa {
+      padding-top: 15px;
+    }
 
 
 /* Homepage section */
-
+    .container_home {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        height: 858.475px;
+        background-color: black;
+    }
     .Homepage_Top_Class {
         clear: both;
 		min-width: 1920px;
-		height: 858.475px;
+		height: 958.475px;
 		left: 0px;
-		top: 190px;
-        margin-bottom: 50px;
+        margin: 0 auto;
 	}
+
 	.eniac_women {
 		position: absolute;
 		overflow: visible;
-		width: 1917.944px;
+		width: 100%;
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -342,34 +350,30 @@ footer{
 	.title_shadow {
 		position: absolute;
 		overflow: visible;
-		width: 2009px;
-		height: 529px;
+		width: 100%;
+		height: 85%;
 		left: 0px;
 		top: 170px;
 	}
 	.museu_title {
-		position: absolute;
-		left: 54px;
-		top: 244px;
-		overflow: visible;
-		width: 1813px;
-		white-space: nowrap;
-		line-height: 180px;
-		margin-top: -32.5px;
-		text-align: center;
-		font-family: Copperplate Gothic;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 115px;
-		color: rgba(255,255,255,1);
-		letter-spacing: 0.55px;
+        position: absolute;
+        top: 244px;
+        overflow: visible;
+        width: 100%;
+        white-space: nowrap;
+        line-height: 180px;
+        text-align: center;
+        font-family: Copperplate Gothic;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 115px;
+        color: rgba(255,255,255,1);
+        letter-spacing: 0.55px;
 	}
 
     .button_e {
         overflow: visible;
         position: absolute;
-        left: 673px;
-        top: 658.975px;
         border: none;
         -webkit-box-shadow: 0px 0px 8px 9px rgb(179, 107, 0);
         box-shadow: 0px 0px 10px 11px rgb(179, 107, 0);
@@ -377,7 +381,6 @@ footer{
         font-weight: 100;
         width: 536px;
         height: 92px;
-        padding: 0px;
         border-radius: 6px;
         display: inline-block;
         transition: all 0.3s ease 0s;
@@ -406,13 +409,20 @@ footer{
         color: rgba(0,0,0,1);
         text-decoration: none;
         }
-
-	.button_cont a {
-		position: absolute;
-		left: 695px;
-		top: 652px;
-		overflow: hidden;
-	}
+    .button_central{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-height: 92px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding-top: 290px;
+    }
+    .button_cont a {
+        position: absolute;
+        overflow: visible;
+    }
 
 /*About Class*/
 
@@ -499,7 +509,7 @@ footer{
     overflow: visible;
     width: 60px;
     height: 60px;
-    left: 315px;
+    left: 335px;
     top: 32px;
 }
 .about-class {
@@ -521,145 +531,29 @@ footer{
 }
 
 /*Explore Class*/
-
+.container_explore {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 1187px;
+    margin-bottom: 100px;
+}
 .Explore_Class {
-    position: absolute;
-    width: 1811px;
-    height: 1076px;
-    left: 55px;
-    top: 1942px;
-    overflow: visible;
-}
-.retangulos_Class {
-    opacity: 0.55;
-    position: absolute;
-    width: 1811px;
-    height: 864px;
+    clear: both;
+    width: 1170px;
+    margin: 0 auto;
+    height: 176px;
     left: 0px;
-    top: 212px;
     overflow: visible;
 }
-.background_1 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 686px;
-    height: 471px;
-    left: 42px;
-    top: 0px;
-}
-.background_2 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 515px;
-    height: 471px;
-    left: 712px;
-    top: 0px;
-}
-.background_3 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 635px;
-    height: 471px;
-    left: 1209px;
-    top: 0px;
-}
-.background_6 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 693px;
-    height: 468px;
-    left: 1193px;
-    top: 471px;
-}
-.background_5 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 738px;
-    height: 468px;
-    left: 489px;
-    top: 471px;
-}
-.background_4 {
-    filter: drop-shadow(-8px 8px 25px rgba(60, 110, 113, 1));
-    position: absolute;
-    overflow: visible;
-    width: 516px;
-    height: 468px;
-    left: 0px;
-    top: 471px;
-}
-.objetos_Class {
-    position: absolute;
-    width: 1680.617px;
-    height: 726.577px;
-    left: 64.429px;
-    top: 244.423px;
-    overflow: visible;
-}
-.A09_0001 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 385.847px;
-    height: 325px;
-    left: 712.867px;
-    top: 20px;
-}
-.A13_0006 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 562.047px;
-    height: 325px;
-    left: 1193.571px;
-    top: 466.577px;
-}
-.A26_0003 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 391.82px;
-    height: 325px;
-    left: 1267.571px;
-    top: 0px;
-}
-.C01_0013 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 414.13px;
-    height: 325px;
-    left: 0px;
-    top: 466.577px;
-}
-.C11_0007 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 575px;
-    height: 325px;
-    left: 444.571px;
-    top: 476.577px;
-}
-.D11_0001 {
-    filter: drop-shadow(10px 23px 25px rgba(0, 0, 0, 0.42));
-    position: absolute;
-    overflow: visible;
-    width: 427.582px;
-    height: 325px;
-    left: 170px;
-    top: 0px;
-}
+.
 .explore_title_Class {
     position: absolute;
     width: 666px;
     height: 126px;
-    left: 68px;
+    left: 0px;
     top: 0px;
     overflow: visible;
 }
@@ -668,133 +562,170 @@ footer{
     overflow: visible;
     width: 60px;
     height: 60px;
-    left: 594px;
-    top: 57px;
+    left: 335px;
+    top: 32px;
 }
 .title_background_A0_Rectangle_39_Class {
     opacity: 0.52;
+    position: absolute;
 }
 .title_background_A0_Rectangle_39 {
     filter: drop-shadow(13px 13px 6px rgba(0, 0, 0, 0.141));
     position: absolute;
     overflow: visible;
-    width: 608px;
-    height: 166px;
-    left: 98px;
-    top: 0px;
+    width: 365px;
+    height: 70px;
+    left: 59px;
+    top: 8px;
 }
 .title_line {
     overflow: visible;
     position: absolute;
     width: 25px;
-    height: 51px;
-    left: 98.5px;
-    top: 37.5px;
+    height: 33px;
+    left:  57.5px;
+    top: 31.5px;
     transform: matrix(1,0,0,1,0,0);
 }
 .Explore_nosso_acervo_Class {
     position: absolute;
     left: 0px;
-    top: 27px;
+    top: 20px;
     overflow: visible;
-    width: 555px;
+    width: 318px;
     white-space: nowrap;
     text-align: left;
     font-family: PT Serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 33px;
     color: rgba(59,59,59,1);
 }
-.TituloObjetos_Class {
-    position: absolute;
-    width: 1659px;
-    height: 514px;
-    left: 61px;
-    top: 536px;
-    overflow: visible;
-}
-.M_quina_de_escrever_IBM_Class {
-    position: absolute;
-    left: 7px;
-    top: 0px;
-    overflow: visible;
-    width: 541px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
-.Sinclair_ZX81___________Class {
-    position: absolute;
-    left: 0px;
-    top: 461px;
-    overflow: visible;
-    width: 408px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
-.Magnon_Convertible_Class {
-    position: absolute;
-    left: 1228px;
-    top: 461px;
-    overflow: visible;
-    width: 432px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
-.Mega_Drive_II_SEGA_Class {
-    position: absolute;
-    left: 547px;
-    top: 461px;
-    overflow: visible;
-    width: 419px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
-.Philips_EL_3302_Class {
-    position: absolute;
-    left: 715px;
-    top: 0px;
-    overflow: visible;
-    width: 334px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
-.Kodak_Carousel_850_Class {
-    position: absolute;
-    left: 1216px;
-    top: 0px;
-    overflow: visible;
-    width: 429px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    color: rgba(59,59,59,1);
-}
+
+
+    .Footer_Class {
+        clear: both;
+		position: absolute;
+		width: 100%;
+		height: 331px;
+		left: 0px;
+        background-color: #3b3b3b;
+		overflow: visible;
+	}
+	.div_horizontal {
+		overflow: visible;
+		position: absolute;
+		width: 1567.998px;
+		height: 3px;
+		left: 176.999px;
+		top: 205.258px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.address {
+		position: absolute;
+		left: 176px;
+		top: 213px;
+		overflow: hidden;
+		width: 1566px;
+		height: 108px;
+		line-height: 35px;
+		margin-top: -7.5px;
+		text-align: center;
+		font-family: Helvetica;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	.div_vertical {
+		overflow: visible;
+		position: absolute;
+		width: 3px;
+		height: 160px;
+		left: 692.5px;
+		top: 45.42px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.doacao_Class {
+		position: absolute;
+		width: 452px;
+		height: 110px;
+		left: 190px;
+		top: 67px;
+		overflow: visible;
+	}
+	.doacao_button {
+		filter: drop-shadow(13px 13px 13px rgba(0, 0, 0, 0.471));
+		position: absolute;
+		overflow: visible;
+		width: 491px;
+		height: 149px;
+		left: 0px;
+		top: 0px;
+	}
+	.doacao {
+		position: absolute;
+		left: 25px;
+		top: 16px;
+		overflow: visible;
+		width: 403px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: PT Serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 47px;
+		color: rgba(0,0,0,1);
+	}
+	.footer_menu_Class {
+		position: absolute;
+		width: 959px;
+		height: 87px;
+		left: 786px;
+		top: 91px;
+		overflow: visible;
+	}
+	.footer_menu {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 960px;
+		height: 87px;
+		text-align: center;
+		font-family: PT Serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 35px;
+		color: rgba(255,255,255,1);
+	}
+    .footer_menu span{
+        padding-left: 50px;
+    }
+	.div3 {
+		overflow: visible;
+		position: absolute;
+		width: 2px;
+		height: 39px;
+        padding-top:5px;
+        margin-left: 25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.div2 {
+		overflow: visible;
+		position: absolute;
+		width: 2px;
+		height: 39px;
+        padding-top:5px;
+        margin-left: 25px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.div1 {
+		overflow: visible;
+		position: absolute;
+		width: 2px;
+		height: 39px;
+        margin-left: 25px;
+        padding-top:5px;
+		transform: matrix(1,0,0,1,0,0);
+	}

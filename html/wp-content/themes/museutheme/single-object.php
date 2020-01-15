@@ -73,6 +73,14 @@
 										</dl>
 
 									</div>
+									<div class="col-md-12" >
+									  <div id="sections">
+									  <label for="tn" id="toggle">Navigation <span class="drop-icon">
+											  <i class="fa fa-chevron-down" aria-hidden="true"></i></span></label>
+												<input type="checkbox" id="tn">
+												<?php categorias_section(); ?>
+									  </div>
+									</div>
 
 						</div>
 
