@@ -1112,7 +1112,7 @@ function categorias_navsection( $sections = array() ) {
 
             while ( $my_new_query->have_posts() ) : $my_new_query->the_post(); // start the custom loop
                 // this must be output in 5 lines, and not all in one, or else errors are thrown.
-                echo '<li style="padding-left: 30px;"><a href="';
+                echo '<li style="padding-left: 0px;"><a  style="padding-left: 10%; padding-right:0%;" href="';
                 echo the_permalink();
                 echo '">';
                 echo get_the_title();

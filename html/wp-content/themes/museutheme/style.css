@@ -203,24 +203,32 @@
         float: right;
         margin-top: 10px;
         margin-right: 0px;
-
+        overflow: visible;
+        z-index: 1;
     }
     #navmenu ul {
       margin: 0;
       padding: 0;
+        overflow: visible;
+        z-index: 1;
     }
     /*with this we have a navigation button, without the menu is complete*/
     #navmenu .main-menu {
       display: none;
+        overflow: visible;
+        z-index: 1;
     }
 
     #tn:checked + .main-menu {
       display: block;
+      z-index: 1;
     }
 
     #navmenu input[type="checkbox"],
     #navmenu ul span.drop-icon {
       display: none;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu li,
@@ -228,12 +236,15 @@
     #navmenu .sub-menu {
       border-style: solid;
       border-color: rgba(0, 0, 0, .05);
-
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu li,
     #toggle-menu {
       border-width: 0 0 1px;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu .sub-menu {
@@ -245,10 +256,14 @@
       border-width: 1px 1px 0;
       margin: 0px;
       text-decoration: none;
+      z-index: 1;
+      overflow: visible;
     }
 
     #navmenu .sub-menu li:last-child {
       border-width: 0;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu li,
@@ -258,40 +273,55 @@
       display: block;
       color: white;
       text-decoration: none;
+        overflow: visible;
       text-shadow: 1px 1px 0 rgba(0, 0, 0, .125);
+      z-index: 1;
     }
 
     #navmenu,
     #toggle-menu {
       background-color: #004d00;
+      overflow: visible;
+      z-index: 1;
     }
 
     #toggle-menu,
     #navmenu a {
       padding: 1em 1.5em;
       padding-left: 15%;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu a {
       transition: all .125s ease-in-out;
       -webkit-transition: all .125s ease-in-out;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu a:hover {
       background-color: white;
       color: #004d00;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu .sub-menu {
       display: none;
+      z-index: 1;
     }
 
     #navmenu input[type="checkbox"]:checked + .sub-menu {
       display: block;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu .sub-menu a:hover {
       color: #444;
+      overflow: visible;
+      z-index: 1;
     }
 
     #toggle-menu .drop-icon,
@@ -299,6 +329,8 @@
       position: absolute;
       right: 0;
       top: 0;
+      overflow: visible;
+      z-index: 1;
     }
 
     #navmenu label.drop-icon, #toggle-menu span.drop-icon {
@@ -309,9 +341,13 @@
       background-color: rgba(0, 0, 0, .125);
       text-shadow: 0 0 0 transparent;
       color: rgba(255, 255, 255, .75);
+      overflow: visible;
+      z-index: 1;
     }
     #navmenu .fa {
       padding-top: 15px;
+      overflow: visible;
+      z-index: 1;
     }
 
 
@@ -323,7 +359,7 @@
         margin-left: auto;
         width: 100%;
         height: 858.475px;
-        background-color: black;
+        margin-bottom: 150px;
     }
     .Homepage_Top_Class {
         clear: both;
@@ -331,11 +367,11 @@
 		height: 958.475px;
 		left: 0px;
         margin: 0 auto;
+        z-index: -1;
 	}
 
 	.eniac_women {
 		position: absolute;
-		overflow: visible;
 		width: 100%;
         height: 100%;
         background-position: center;
@@ -343,9 +379,11 @@
         background-size: cover;
 		left: 0px;
 		top: 0px;
+        z-index: -1;
 	}
 	.title_shadow {
 		filter: blur(17px);
+        z-index: -1;
 	}
 	.title_shadow {
 		position: absolute;
@@ -354,6 +392,7 @@
 		height: 85%;
 		left: 0px;
 		top: 170px;
+        z-index: -1;
 	}
 	.museu_title {
         position: absolute;
@@ -369,6 +408,7 @@
         font-size: 115px;
         color: rgba(255,255,255,1);
         letter-spacing: 0.55px;
+        z-index: -1;
 	}
 
     .button_e {
@@ -390,6 +430,7 @@
         font-weight: bold;
         font-size: 50px;
         color: rgba(0,0,0,1);
+        z-index: -1;
         }
 
     .button_e:hover {
@@ -408,6 +449,7 @@
         font-size: 52px;
         color: rgba(0,0,0,1);
         text-decoration: none;
+        z-index: -1;
         }
     .button_central{
         margin-left: auto;
@@ -418,10 +460,12 @@
         display: flex;
         align-items: center;
         padding-top: 290px;
+        z-index: -1;
     }
     .button_cont a {
         position: absolute;
         overflow: visible;
+        z-index: -1;
     }
 
 /*About Class*/
@@ -537,8 +581,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    height: 1187px;
-    margin-bottom: 100px;
+    min-height: 1000px;
 }
 .Explore_Class {
     clear: both;

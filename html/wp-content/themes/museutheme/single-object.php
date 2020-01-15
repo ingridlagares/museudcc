@@ -65,12 +65,7 @@
 
 									<div class="">
 
-										<dl>
 
-											<?php get_sidebar( 'categoria' ); ?>
-
-
-										</dl>
 
 									</div>
 									<div class="col-md-12" >

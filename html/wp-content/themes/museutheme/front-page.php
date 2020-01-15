@@ -99,12 +99,12 @@ get_header(); ?>
 							  <figure class="img-container">
 								<img src="<?php bloginfo('template_directory'); ?>/images/D11_0001_A0_Rectangle_36_pattern.png" />
 								<figcaption class="img-content">
-								  <h2 class="title">Smart Watch</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">IBM 6746</h2>
+								  <h3 class="category">Máquina de Escrever</h3>
 								</figcaption>
 								<span class="img-content-hover">
-								  <h2 class="title">Smart Watch</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">IBM 6746</h2>
+								  <h3 class="category">Máquina de Escrever</h3>
 								</span>
 							  </figure>
 							</div>
@@ -112,12 +112,12 @@ get_header(); ?>
 							  <figure class="img-container">
 								<img src="<?php bloginfo('template_directory'); ?>/images/A26_0003_A0_Rectangle_30_pattern.png" />
 								<figcaption class="img-content">
-								  <h2 class="title">Camera Film</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title"> Kodak Carousel 850</h2>
+								  <h3 class="category">Slide Projector</h3>
 								</figcaption>
 								<span class="img-content-hover">
-								  <h2 class="title">Camera Film</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title"> Kodak Carousel 850</h2>
+								  <h3 class="category">Slide Projector</h3>
 								</span>
 							  </figure>
 							</div>
@@ -125,12 +125,12 @@ get_header(); ?>
 							  <figure class="img-container">
 								<img src="<?php bloginfo('template_directory'); ?>/images/C01_0013_A0_Rectangle_32_pattern.png">
 								<figcaption class="img-content">
-								  <h2 class="title">Coffee</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Sinclair ZX81</h2>
+								  <h3 class="category">Computador Doméstico</h3>
 								</figcaption>
 								<span class="img-content-hover">
-								  <h2 class="title">Coffee</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Sinclair ZX81</h2>
+								  <h3 class="category">Computador Doméstico</h3>
 								</span>
 							  </figure>
 							</div>
@@ -138,12 +138,12 @@ get_header(); ?>
 							  <figure class="img-container">
 								<img src="<?php bloginfo('template_directory'); ?>/images/A13_0006_A0_Rectangle_28_pattern.png" />
 								<figcaption class="img-content">
-								  <h2 class="title">Phone</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Magnon Convertible</h2>
+								  <h3 class="category">Conversor de Filme 8mm</h3>
 								</figcaption>
 								<span class="img-content-hover">
-								  <h2 class="title">Phone</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Magnon Convertible</h2>
+								  <h3 class="category">Conversor de Filme 8mm</h3>
 								</span>
 							  </figure>
 							</div>
@@ -151,12 +151,12 @@ get_header(); ?>
 							  <figure class="img-container">
 								<img src="<?php bloginfo('template_directory'); ?>/images/C11_0007_A0_Rectangle_34_pattern.png" />
 								<figcaption class="img-content">
-								  <h2 class="title">Keyboard</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Mega Drive II</h2>
+								  <h3 class="category">Videogame</h3>
 								</figcaption>
 								<span class="img-content-hover">
-								  <h2 class="title">Keyboard</h2>
-								  <h3 class="category">Showcase</h3>
+								  <h2 class="title">Mega Drive II</h2>
+								  <h3 class="category">Videogame</h3>
 								</span>
 							  </figure>
 							</div>

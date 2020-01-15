@@ -29,7 +29,7 @@
 
 <header id="masthead" class="wrap">
 
-	<div class="container">
+	<div class="container" style="z-index: -1;">
 
 		<div id="branding" class="row">
 
