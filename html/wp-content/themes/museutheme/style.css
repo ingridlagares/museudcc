@@ -6,6 +6,16 @@
         margin: 0px;
         font-size: 14px;
     }
+    #main-content{
+        min-height: 100vh;
+    }
+    a{
+        color: #444;
+    }
+    a:hover{
+        color: black;
+        text-decoration: none;
+    }
     html {
       scroll-behavior: smooth;
     }
@@ -221,6 +231,8 @@
 
     #tn:checked + .main-menu {
       display: block;
+      overflow: visible;
+      position: absolute;
       z-index: 1;
     }
 
@@ -310,6 +322,7 @@
     #navmenu .sub-menu {
       display: none;
       z-index: 1;
+      overflow: visible;
     }
 
     #navmenu input[type="checkbox"]:checked + .sub-menu {
@@ -430,7 +443,7 @@
         font-weight: bold;
         font-size: 50px;
         color: rgba(0,0,0,1);
-        z-index: -1;
+        z-index: 0;
         }
 
     .button_e:hover {
@@ -449,7 +462,7 @@
         font-size: 52px;
         color: rgba(0,0,0,1);
         text-decoration: none;
-        z-index: -1;
+        z-index: 0;
         }
     .button_central{
         margin-left: auto;
@@ -460,12 +473,12 @@
         display: flex;
         align-items: center;
         padding-top: 290px;
-        z-index: -1;
+        z-index: 0;
     }
     .button_cont a {
         position: absolute;
         overflow: visible;
-        z-index: -1;
+        z-index: 0;
     }
 
 /*About Class*/
@@ -655,6 +668,19 @@
         background-color: #3b3b3b;
 		overflow: visible;
 	}
+    .footer_menu a, .footer_menu a:visited{
+        text-align: center;
+        padding-left: 50px;
+        color: rgba(255,255,255,1);
+        text-decoration: none;
+    }
+    .footer_menu a:link, .footer_menu a:hover, .footer_menu a:active{
+        text-align: center;
+        padding-left: 50px;
+        color: rgba(255,153,0,1);
+        text-decoration: none;
+    }
+
 	.div_horizontal {
 		overflow: visible;
 		position: absolute;
@@ -689,37 +715,56 @@
 		top: 45.42px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	.doacao_Class {
-		position: absolute;
-		width: 452px;
-		height: 110px;
-		left: 190px;
-		top: 67px;
-		overflow: visible;
-	}
-	.doacao_button {
-		filter: drop-shadow(13px 13px 13px rgba(0, 0, 0, 0.471));
-		position: absolute;
-		overflow: visible;
-		width: 491px;
-		height: 149px;
-		left: 0px;
-		top: 0px;
-	}
-	.doacao {
-		position: absolute;
-		left: 25px;
-		top: 16px;
-		overflow: visible;
-		width: 403px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: PT Serif;
+    .button_edoacao {
+        overflow: visible;
+        position: absolute;
+        border: none;
+        -webkit-box-shadow: 0px 0px 8px 9px rgb(179, 107, 0);
+        box-shadow: 0px 0px 10px 11px rgb(179, 107, 0);
+        background: rgb(179, 107, 0);
+        font-weight: 100;
+        width: 480px;
+        height: 85px;
+        left: 170px;
+        top: 67px;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(0,0,0,1);
+        z-index: 0;
+        text-align: center;
+    }
+
+    .button_edoacao:hover {
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        width: 520;
+        height: 90px;
+        left: 170;
+        top: 67px;
+        background: #FF9900;
+        -webkit-box-shadow: 0px 0px 15px 16px #FF9900;
+        box-shadow: 0px 0px 15px 16px #FF9900;
+        transition: all 0.3s ease 0s;
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: rgba(0,0,0,1);
+        z-index: 0;
+    }
+    .button_edoacao a, .button_edoacao a:visited{
+        font-family: PT Serif;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 47px;
 		color: rgba(0,0,0,1);
-	}
+    }
+
 	.footer_menu_Class {
 		position: absolute;
 		width: 959px;
@@ -772,3 +817,54 @@
         padding-top:5px;
 		transform: matrix(1,0,0,1,0,0);
 	}
+
+    .card-image{
+        width: 500px;
+    }
+    .archive-grid {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+        clear: both;
+        z-index: -1;
+      }
+    .archive-grid img {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        max-width: 100%;
+        z-index: -1;
+        overflow: hidden;
+        position: relative;
+    }
+    .navigation {
+        padding: 50px 0px 50px 0px;
+    }
+    .navigation li a,
+    .navigation li a:hover,
+    .navigation li.active a,
+    .navigation li.disabled {
+        color: #fff;
+        text-decoration:none;
+    }
+
+    .navigation li {
+        display: inline;
+    }
+
+    .navigation li a,
+    .navigation li a:hover,
+    .navigation li.active a,
+    .navigation li.disabled {
+        background-color: #009900;
+        border-radius: 3px;
+        cursor: pointer;
+        padding: 12px;
+        padding: 0.75rem;
+    }
+
+    .navigation li a:hover,
+    .navigation li.active a {
+        background-color: #004d00;;
+    }

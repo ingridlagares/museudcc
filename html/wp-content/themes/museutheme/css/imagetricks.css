@@ -1,4 +1,15 @@
 
+/* Colorize-zoom Container */
+.img-hover-zoom--colorize img {
+  transition: transform .1s, filter 0.8s ease-in-out;
+  filter: grayscale(80%);
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.01);
+}
+
 /* Blur-zoom Container */
 .img-hover-zoom--blur img {
   transition: transform 0.5s, filter 1s ease-in-out;

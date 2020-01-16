@@ -27,36 +27,35 @@
 					<h1><?php _e( "Blog Archives", "custom" ); ?></h1>
 			 	  <?php } ?>
 
-			 	  	<div class="index-list">
-
+			 	  	<div class="archive-grid index-list ">
 					<?php while ( have_posts() ) : the_post(); ?>
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 							<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e( "Permalink to", "custom" ); ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
-							<?php if(get_field('display_featured_image') == true){
+							<?php if(get_post_thumbnail_id($post->ID) == true){
 								$image_id = get_post_thumbnail_id($post->ID);
 								$heroimage_url = wp_get_attachment_image_src($image_id,'800-landscape');
 								$heroimage_url = $heroimage_url[0];
 								$alt_text = get_post_meta($image_id , '_wp_attachment_image_alt', true);
 								if($image_id){
 							?>
-							<div class="lead-image">
+							<div class="lead-image img-hover-zoom">
 								<a href="<?php the_permalink(); ?>">
-									<img src="<?php echo $heroimage_url;?>" alt="<?php echo $alt_text; ?>"/>
+									<img class="card-image" src="<?php echo $heroimage_url;?>" alt="<?php echo $alt_text; ?>"/>
+								</a>
+							</div>
+						<?php }}
+								else {
+							?>
+							<div class="lead-image img-hover-zoom">
+								<a href="<?php the_permalink(); ?>">
+									<img class="card-image" src="<?php bloginfo('template_directory'); ?>/images/notfound.jpg" alt="Figura não encontrada"/>
 								</a>
 							</div>
 							<?php }
-							} ?>
-
-							<div class="post-content">
-								<?php if(get_field('page_intro')){ ?>
-									<div class="page-summary"><?php the_field('page_summary'); ?></div>
-								<?php } else { ?>
-									<?php the_excerpt(); ?>
-								<?php } ?>
-							</div>
+							 ?>
 
 						</article>
 
@@ -64,18 +63,7 @@
 
 					</div>
 
-					<div class="pagination">
-						<?php if ( function_exists( 'wp_pagenavi' ) ) {  ?>
-				  			<?php wp_pagenavi(  ); ?>
-						<?php } else { ?>
-						<div class="alignleft">
-							<?php next_posts_link( 'Older Entries'); ?>
-						</div>
-						<div class="alignright">
-							<?php previous_posts_link( 'Newer Entries' ); ?>
-						</div>
-						<?php } ?>
-					</div><!-- /pagination -->
+					<?php pagination(); ?>
 
 			</div>
 

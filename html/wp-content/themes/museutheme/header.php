@@ -45,7 +45,7 @@
 				<div class="nav-col">
 
 					<div id="navmenu">
-						<label for="tm" id="toggle-menu">Navigation <span class="drop-icon">
+						<label for="tm" id="toggle-menu">Categorias <span class="drop-icon">
 							<i class="fa fa-chevron-down" aria-hidden="true"></i></span></label>
 							  <input type="checkbox" id="tm">
 						<?php categorias_navsection(); ?>
