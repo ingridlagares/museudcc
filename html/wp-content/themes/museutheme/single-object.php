@@ -3,96 +3,81 @@
 <div id="main-content"  class="wrap">
 	<div class="container">
 		<div class="row">
-			<div id="page-content" class="col-sm-24">
-
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-						<div id="object-main" class="row">
-
-							<div class="col-sm-12">
-
-							<h1><?php the_title(); ?></h1>
-
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="title">
+						<h1><?php the_title(); ?></h1>
+					</div>
+					<div class="grid-container">
+						<div class="text">
 							<?php if(cos_get_field("briefDescription")){ ?>
-
-								<!-- <?php echo cos_get_remapped_field_name("briefDescription"); ?> -->
-
-								<div id="brief-description"><?php cos_the_field("briefDescription");?></div>
-
-							<?php } ?>
-
-							<?php if ( has_post_thumbnail() ) { ?>
-								<div class="featured-image">
-									<?php the_post_thumbnail('full', array( 'class' => 'single-featured-image' )); ?>
+								<div class="descricao">
+									<h3>Descrição</h3>
+									<!-- <?php echo cos_get_remapped_field_name("briefDescription"); ?> -->
+									<div id="brief-description"><?php cos_the_field("briefDescription");?></div>
 								</div>
 							<?php } ?>
+							<?php if(cos_get_field("distinguishingFeatures")){ ?>
+								<div class="distincao">
+									<h3>Características</h3>
+									<!-- <?php echo cos_get_remapped_field_name("distinguishingFeatures"); ?> -->
 
+									<div id="brief-description"><?php cos_the_field("distinguishingFeatures");?></div>
+								</div>
+							<?php } ?>
+							<?php if(cos_get_field("numberOfObjects")){ ?>
+								<div class="numero">
+									<h4>Quantidade</h4>
+									<!-- <?php echo cos_get_remapped_field_name("numberOfObjects"); ?> -->
+									<div id="brief-description"><?php cos_the_field("numberOfObjects");?></div>
+								</div>
+							<?php } ?>
+							<?php if(cos_get_field("objectNumber")){ ?>
+								<div class="codigo">
+									<h4>Código do Objeto</h3>
+										<div><?php cos_the_field("objectNumber");?></div>
+									</div>
+								<?php } ?>
 							</div>
-
-							<div id="object-metadata" class="col-sm-11 col-sm-offset-1">
-
-								<div class="row inner-content">
-
-									<div class="col-sm-12">
-
-										<dl>
-
-										<?php if(cos_get_field("objectNumber")){ ?>
-
-											<dt><?php echo cos_get_remapped_field_name("objectNumber"); ?></dt>
-
-											<dd><?php cos_the_field("objectNumber");?></dd>
-
-										<?php } ?>
-
-
-										<?php if(cos_get_field("dimension")){ ?>
-
-											<dt><?php echo cos_get_remapped_field_name("dimension"); ?></dt>
-
-											<dd><?php cos_the_field("dimension"); ?></dd>
-
-										<?php } ?>
-
-
-
-										</dl>
-
-									</div>
-</div><!-- /row -->
-
-									<div class="">
+							<div class="image image-area" >
+								<?php if(get_post_thumbnail_id($post->ID) == true){
+									$image_id = get_post_thumbnail_id($post->ID);
+									$heroimage_url = wp_get_attachment_image_src($image_id,'800-landscape');
+									$heroimage_url = $heroimage_url[0];
+									$alt_text = get_post_meta($image_id , '_wp_attachment_image_alt', true);
+									if($image_id){
+										?>
+										<div class="lead-image">
+											<a href="<?php the_permalink(); ?>">
+												<img class="single-image" src="<?php echo $heroimage_url;?>" alt="<?php echo $alt_text; ?>"/>
+											</a>
+										</div>
+									<?php }}
+									else {
+								?>
+								<div class="lead-image">
+									<a href="<?php the_permalink(); ?>">
+										<img class="single-image" src="<?php bloginfo('template_directory'); ?>/images/notfound.jpg" alt="Figura não encontrada"/>
+									</a>
+								</div>
+								<?php }
+								 ?>
+							 </div>
+						 </div>
 
 
-
-									</div>
-									<div class="col-md-12" >
-									  <div id="sections">
-									  <label for="tn" id="toggle">Navigation <span class="drop-icon">
-											  <i class="fa fa-chevron-down" aria-hidden="true"></i></span></label>
-												<input type="checkbox" id="tn">
-												<?php categorias_section(); ?>
-									  </div>
-									</div>
-
-						</div>
-
-					</article>
+						</article>
 
 
-				<?php endwhile; else: ?>
+					<?php endwhile; else: ?>
 
-				<dd>Sorry, nothing found!</dd>
+						<dd>Sorry, nothing found!</dd>
 
-				<?php endif; ?>
-			</div>
+					<?php endif; ?>
+				</div>
 
-		</div><!-- /row -->
+			</div><!-- /container -->
 
-	</div><!-- /container -->
+		</div><!-- /main-content -->
 
-</div><!-- /main-content -->
-
-<?php get_footer(); ?>
+		<?php get_footer(); ?>

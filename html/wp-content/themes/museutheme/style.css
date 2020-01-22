@@ -865,3 +865,67 @@
     .navigation li.active a {
         background-color: #004d00;;
     }
+
+    #main-content {
+      padding: 4rem 0;
+    }
+    .single-image{
+        max-width: 400px;
+        max-height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+    }
+
+    .title {
+        margin: 20px 0px 20px 0px;
+        border-bottom: 1px solid #efefef;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "text text image-area";
+    }
+
+    .text {
+        grid-area: text;
+        border-top: 1px solid #9c9c9c;
+
+     }
+
+    .image-area {
+        grid-area: image-area;
+    }
+    .descricao{
+        padding: 19px;
+        border-bottom: 1px solid #9c9c9c;
+        background-color: #efefef;
+        border-left: 1px solid #9c9c9c;
+        border-right: 1px solid #9c9c9c;
+    }
+    .distincao{
+        padding: 19px;
+        border-bottom: 1px solid #9c9c9c;
+        background-color: #efefef;
+        border-left: 1px solid #9c9c9c;
+        border-right: 1px solid #9c9c9c;
+    }
+    .numero{
+        padding: 19px;
+        border-bottom: 1px solid #9c9c9c;
+        border-left: 1px solid #9c9c9c;
+        border-right: 1px solid #9c9c9c;
+        background-color: #efefef;
+    }
+    .codigo{
+        padding: 19px;
+        background-color: #efefef;
+        border-bottom: 1px solid #9c9c9c;
+        border-left: 1px solid #9c9c9c;
+        border-right: 1px solid #9c9c9c;
+    }
