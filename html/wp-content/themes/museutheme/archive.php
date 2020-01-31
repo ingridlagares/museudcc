@@ -7,6 +7,7 @@
 		<div class="row">
 
 			<div id="page-content" class="col-sm-16 index">
+				<?php echo get_hansel_and_gretel_breadcrumbs();; ?>
 
 				<?php if (have_posts()) : ?>
 

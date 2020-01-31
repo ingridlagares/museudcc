@@ -17,7 +17,7 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/touch-icon-57.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url'); ?>/images/touch-icon-72.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/images/touch-icon-114.png" />
-
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 
 	<?php wp_head(); ?>
