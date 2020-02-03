@@ -1004,7 +1004,7 @@ $categories = array(
 				</i>
 				</label>
 				</a>';
-				echo '<input type="checkbox" id="'. $inputid.'" >';
+				echo '<input type="radio" id="'. $inputid.'" >';
 				//echo '<span >' . $section->name . '</span>'; // display the taxonomy name
 
 				if ( !empty( $section_children ) ) { // if there are children in the array
@@ -1083,7 +1083,7 @@ function categorias_navsection( $sections = array() ) {
 		</i>
 		</label>
 		</a>';
-		echo '<input type="checkbox" id="'. $inputid.'" >';
+		echo '<input class="limit-checkbox" name="'. $parents_number.'"  type="radio" id="'. $inputid.'" >';
 		//echo '<span >' . $section->name . '</span>'; // display the taxonomy name
 
 		if ( !empty( $section_children ) ) { // if there are children in the array
@@ -1262,7 +1262,7 @@ function get_hansel_and_gretel_breadcrumbs()
 				?>
 				<div class="wrapper">
 				  <ul class="breadcrumbs">
-				    <li class="first"><a href="#" class="icon-home"></a>Home</li>
+				    <li class="first"><a href="/ " class="icon-home"></a>Home</li>
 				<?php
 				foreach ($all_categories as $cat ) {
 					echo "<li><a href='";
@@ -1320,7 +1320,7 @@ function get_hansel_and_gretel_breadcrumbs()
 			?>
 			<div class="wrapper">
 			  <ul class="breadcrumbs">
-				<li class="first"><a href="#" class="icon-home"></a>Home</li>
+				<li class="first"><a href="/" class="icon-home"></a>Home</li>
 			<?php
 			foreach ($all_categories as $cat ) {
 				echo "<li><a href='";
@@ -1357,5 +1357,4 @@ function get_hansel_and_gretel_breadcrumbs()
 	  }
 	}
 }
-
 ?>

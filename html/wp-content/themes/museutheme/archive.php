@@ -7,8 +7,15 @@
 		<div class="row">
 
 			<div id="page-content" class="col-sm-16 index">
-				<?php echo get_hansel_and_gretel_breadcrumbs();; ?>
-
+				<?php
+					echo get_hansel_and_gretel_breadcrumbs();
+					$wp_the_query   = $GLOBALS['wp_the_query'];
+					$queried_object = $wp_the_query->get_queried_object();
+					$term_object = get_term( $queried_object );
+				?>
+				<div class="title">
+					<h1><?php echo $term_object->name; ?></h1>
+				</div>
 				<?php if (have_posts()) : ?>
 
 			 	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>

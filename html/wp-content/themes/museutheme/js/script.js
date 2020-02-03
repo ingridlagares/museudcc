@@ -18,7 +18,3 @@ function showImgContent(e) {
 };
 
 document.addEventListener('mousemove', showImgContent);
-
-//----------------------------------------
-// Breadcrumbs
-//----------------------------------------
