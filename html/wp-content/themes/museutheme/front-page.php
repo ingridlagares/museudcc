@@ -20,7 +20,7 @@ get_header(); ?>
 					<span>Museu da Computação </span><br><span style="font-family:Butler;font-style:normal;font-weight:bold;font-size:75px;letter-spacing:0.4px;">@DCC</span>
 				</div>
 				<div class="button_central col-md-12">
-					<a class="button_e"  href="/" target="_blank" rel="nofollow noopener">
+					<a class="button_e"  href="/object" target="_self" rel="nofollow noopener">
 						Acessar acervo
 					</a>
 				</div>

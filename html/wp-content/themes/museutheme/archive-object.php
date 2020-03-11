@@ -1,95 +1,48 @@
 <?php get_header(); ?>
 
 <div id="main-content" class="wrap">
-
 	<div class="container">
-
 		<div class="row">
-
-			<!--Include filtering here if needed-->
-
-
-			<div class="col-sm-24">
-
-				<form method="get" action="<?php echo home_url();?>">
-			    	<legend>Filter results: </legend>
-			      	<label>
-			        <select style="height:25px" onchange="location = this.options[this.selectedIndex].value;">
-			          	<option value="" selected>Collection Filter</option>
-						<option value="<?php bloginfo('url'); ?>/object/?filter=one">One</option>
-						<option value="<?php bloginfo('url'); ?>/object/?filter=two">Two</option>
-			        </select>
-			      </label>
-			    </form>
-
-			</div>
-
-
-
 			<!--End Filtering-->
-
 			<div id="page-content" class="col-sm-24 index">
-
 				<?php if (have_posts()) :?>
 					<?php $i = 0; ?>
-
 					<h1>Acervo:</h1>
-
-					<div class="row index-list">
-
+					<div class="archive-grid index-list ">
 						<?php while ( have_posts() ) : the_post(); ?>
-
 						<?php $i++; ?>
+											<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-						<?php $object_name = get_the_title(); ?>
-
-						<a href="<?php the_permalink(); ?>" id="post-<?php the_ID(); ?>" <?php post_class('index-object col-sm-12 col-md-6'); ?>>
-
-							<div class="index-object-inner">
-
-								<div class="index-object-image">
-									<?php if ( has_post_thumbnail() ) {
-										the_post_thumbnail('full', array( 'class' => 'single-featured-image' ));
-										} else { ?>
-										<img src="<?php echo get_template_directory_uri() . '/images/default-grid-image.png'; ?>" alt="<?php the_title(); ?>">
-									<?php } ?>
-								</div>
-								 <div class="index-object-detail">
-									<h2><?php echo $object_name; ?></h2>
-									<!--<?php if(cos_get_field("briefDescription")){ ?>
-										<div class="index-object-description"><?php cos_the_field("briefDescription"); ?></div>
-									<?php } ?>-->
-								</div>
-
-							</div>
-
-						</a>
-
-						<?php if(($i%4) == 0){ echo '<div class="clearfix"></div>'; }; ?>
-
+												<h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e( "Permalink to", "custom" ); ?> <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+													<?php if(get_post_thumbnail_id($post->ID) == true){
+														$image_id = get_post_thumbnail_id($post->ID);
+														$heroimage_url = wp_get_attachment_image_src($image_id,'800-landscape');
+														$heroimage_url = $heroimage_url[0];
+														$alt_text = get_post_meta($image_id , '_wp_attachment_image_alt', true);
+														if($image_id){
+													?>
+													<div class="lead-image img-hover-zoom">
+														<a href="<?php the_permalink(); ?>">
+															<img class="card-image" src="<?php echo $heroimage_url;?>" alt="<?php echo $alt_text; ?>"/>
+														</a>
+													</div>
+												<?php }}
+														else {
+													?>
+													<div class="lead-image img-hover-zoom">
+														<a href="<?php the_permalink(); ?>">
+															<img class="card-image" src="<?php bloginfo('template_directory'); ?>/images/notfound.jpg" alt="Figura não encontrada"/>
+														</a>
+													</div>
+													<?php }
+													 ?>
+												</article>
 						<?php endwhile; endif; ?>
-
 					</div><!-- /index -->
-
-					<div class="pagination">
-							<?php if ( function_exists( 'wp_pagenavi' ) ) {  ?>
-					  			<?php wp_pagenavi(  ); ?>
-							<?php } else { ?>
-							<div class="alignleft">
-								<?php next_posts_link( 'Próxima Página'); ?>
-							</div>
-							<div class="alignright">
-								<?php previous_posts_link( 'Página anterior' ); ?>
-							</div>
-						<?php } ?>
-					</div><!-- /pagination -->
-
+					<?php pagination(); ?>
 			</div>
-
 		</div><!-- /row -->
-
 	</div><!-- /container -->
-
 </div><!-- /main-content -->
 
 <?php get_footer(); ?>

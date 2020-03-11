@@ -7,7 +7,7 @@
 	<!-- Set the viewport width to device width for mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-	<title><?php wp_title(''); ?></title>
+	<title>Museu da Computação @DCC</title>
 	<link href="<?php echo get_bloginfo( 'template_directory' );?>/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
@@ -45,8 +45,9 @@
 				<div class="nav-col">
 
 					<div id="navmenu">
-						<label for="tm" id="toggle-menu">Categorias <span class="drop-icon">
+						<label  for="tm" id="toggle-menu"><a style="padding: 0;" href="/object">Categorias</a> <span class="drop-icon">
 							<i class="fa fa-chevron-down" aria-hidden="true"></i></span></label>
+
 							  <input type="checkbox" id="tm">
 						<?php categorias_navsection(); ?>
 					</div>
