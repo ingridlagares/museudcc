@@ -180,8 +180,7 @@ class CultureObject extends Core {
             'show_in_rest' => true,
             'menu_icon' => 'dashicons-list-view',
             'supports' => array('title','custom-fields','thumbnail'),
-            'rewrite' => array('slug' => 'object', 'with_front' => false),
-            'capabilities' => array('create_posts' => false, 'delete_post' => false, 'edit_post' => false, 	),
+            'rewrite' => array('slug' => 'object', 'with_front' => false)
             )
         );
         

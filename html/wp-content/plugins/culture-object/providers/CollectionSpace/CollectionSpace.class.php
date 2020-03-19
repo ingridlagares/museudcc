@@ -72,7 +72,6 @@ class CollectionSpace extends \CultureObject\Provider {
             'parent_item_colon' => __('Parent Person:'),
             'edit_item'         => __('Edit Person'),
             'update_item'       => __('Update Person'),
-            'add_new_item'      => __('Add New Person'),
             'new_item_name'     => __('New Person Name'),
             'menu_name'         => __('People'),
         );
@@ -98,7 +97,6 @@ class CollectionSpace extends \CultureObject\Provider {
             'parent_item_colon' => __('Parent Organization:'),
             'edit_item'         => __('Edit Organization'),
             'update_item'       => __('Update Organization'),
-            'add_new_item'      => __('Add New Organization'),
             'new_item_name'     => __('New Organization Name'),
             'menu_name'         => __('Organizations'),
         );
